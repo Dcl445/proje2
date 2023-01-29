@@ -1,4 +1,4 @@
-# proje2
+# kdvli fiyat
 
   Scanner klv=new Scanner(System.in);
         System.out.println("Lutfen maliyeti giriniz");
