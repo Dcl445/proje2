@@ -1,0 +1,18 @@
+
+ Scanner klv=new Scanner(System.in);
+       int c;
+      System.out.println("Hava sicakligini giriniz");
+         c=klv.nextInt();
+        
+        if (c<5) {
+            System.out.println("Kayak merkezimiz sizin icin acilmistir"); 
+        }
+        else if (c>=5 &&c<15) {
+            System.out.println(" Sinema merkezimiz sizin icin acilmistir");
+        }
+        else if (c>=15 && c<25) {
+            System.out.println(" Piknik merkezimiz sizin icin acilmistir"); 
+        }
+        else if (c>=25) {
+            System.out.println(" Yemek merkezimiz sizin icin acilmistir");
+        }
