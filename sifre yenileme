@@ -1,0 +1,33 @@
+
+
+ Scanner klv = new Scanner(System.in);
+
+        String sifre = "Dicle";
+        String yenisifre;
+        System.out.println("lutfen siferinizi giriniz");
+        String sifre1 = klv.nextLine();
+        if (sifre == sifre1) {
+            System.out.println("sifreniz dogru");
+
+        } else if (sifre != sifre1) {
+            System.out.println("sifreniz yanlis");
+        }
+        System.out.println("Sifrenizi sifirlamak ister misiniz? evet=1/hayır=2");
+        int sifirlama = klv.nextInt();
+
+        if (sifirlama == 1) {
+            Scanner scr = new Scanner(System.in);
+            System.out.println("Yeni sifrenizi giriniz");
+            yenisifre = scr.nextLine();
+
+            if (!yenisifre.equals(sifre)) {
+                System.out.println("sistem basarili");
+            } else {
+                System.out.println("Sistem basarisiz");
+            }
+        }
+        if (sifirlama == 2) {
+            System.out.println("bayy");
+        }
+
+    }
